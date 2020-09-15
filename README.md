@@ -3,7 +3,9 @@ Andersen_Task2_Patterns
 
 * Creational (Порождающие)
 1. Abstract Factory
-2. Builder
+2. Builder - Отделяет конструирование сложного объекта от его представления, так что
+             в результате одного и того же процесса конструирования могут получаться раз-
+             ные представления.
 3. Factory Method
 4. Prototype
 5. Singleton
