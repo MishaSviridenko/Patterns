@@ -1,14 +1,14 @@
 ## Patterns
 Andersen_Task2_Patterns
 
-* ####Creational (Порождающие)
+* Creational (Порождающие)
 1. Abstract Factory
 2. Builder
 3. Factory Method
 4. Prototype
 5. Singleton
 
-* ####Structural (Структурные)
+* Structural (Структурные)
 1. Adapter
 2. Bridge
 3. Composite
@@ -17,7 +17,7 @@ Andersen_Task2_Patterns
 6. Flyweight
 7. Proxy
 
-* ####Behavioral (Поведенческие)
+* Behavioral (Поведенческие)
 1. Chain of Responsibility
 2. Command
 3. Interpreter
