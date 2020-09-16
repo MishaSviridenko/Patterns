@@ -5,11 +5,11 @@ import Structural.Bridge.Mark;
 
 public class Sedan extends Car {
 
-    public Sedan(Mark m){
+    public Sedan(Mark m) {
         super(m);
     }
 
-    public void showDetails(){
+    public void showDetails() {
         System.out.println("Sedan");
         mark.setMark();
     }

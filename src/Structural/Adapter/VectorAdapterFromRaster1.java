@@ -4,7 +4,16 @@ import Structural.Adapter.Interfaces.VectorGraphicsInterface;
 
 public class VectorAdapterFromRaster1 implements VectorGraphicsInterface {
     RasterGraphics raster;
-    public VectorAdapterFromRaster1(RasterGraphics raster) {this.raster = raster;}
-    public void drawLine() { raster.drawRasterLine();  }
-    public void drawSquare() { raster.drawRasterSquare();     }
+
+    VectorAdapterFromRaster1(RasterGraphics raster) {
+        this.raster = raster;
+    }
+
+    public void drawLine() {
+        raster.drawRasterLine();
+    }
+
+    public void drawSquare() {
+        raster.drawRasterSquare();
+    }
 }

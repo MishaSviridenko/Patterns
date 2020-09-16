@@ -7,7 +7,7 @@ import java.util.Random;
 /**
  * Использует разделение для эффективной поддержки множества мелких
  * объектов.
- *
+ * <p>
  * Приспособленец - использует разделение для эффективной
  * поддержки множества мелких объектов.
  */
@@ -18,7 +18,7 @@ public class Main {
         shapes.add(shF.getShape("square"));
         shapes.add(shF.getShape("circle"));
         Random random = new Random();
-        for(Shape shape : shapes){
+        for (Shape shape : shapes) {
             int x = random.nextInt(100);
             int y = random.nextInt(100);
             shape.draw(x, y);

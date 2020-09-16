@@ -7,7 +7,7 @@ import Behavioral.ChainOfResponsibility.Extends.SMSLogger;
  * давая шанс обработать запрос нескольким объектам. Связывает
  * объекты-получатели в цепочку и передает запрос вдоль этой цепочки,
  * пока его не обработают.
- *
+ * <p>
  * Цепочка ответственности - предназначен для организации в системе
  * уровней ответственности. В разрабатываемой системе имеется группа
  * объектов, которые могут обрабатывать сообщения определенного типа.
@@ -34,4 +34,5 @@ public class Main {
         logger0.writeMessage("It's alright", Level.INFO);
         logger0.writeMessage("Debuging", Level.DEBUG);
         logger0.writeMessage("System died", Level.ERROR);
-    }}
+    }
+}

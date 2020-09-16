@@ -3,16 +3,19 @@ package Creational.Builder.BuilderHard;
 import Creational.Builder.BuilderHard.Bean.Car;
 
 abstract public class CarBuilder {
-    Car car;
-    void createCar(){
+    public Car car;
+
+    void createCar() {
         car = new Car();
     }
 
-    public abstract void buiderMake();
+    public abstract void builderMake();
+
     public abstract void buildTransmission();
+
     public abstract void buildMaxSpeed();
 
-    Car getCar(){
+    Car getCar() {
         return car;
     }
 }

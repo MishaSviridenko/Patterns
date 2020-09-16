@@ -1,10 +1,11 @@
 package Structural.Facade;
 
-public class Power {
-    void on(){
+class Power {
+    void on() {
         System.out.println("Power ON");
     }
-    void off(){
+
+    void off() {
         System.out.println("Power OFF");
     }
 }

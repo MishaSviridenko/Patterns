@@ -10,7 +10,7 @@ import Creational.FactoryMethod.Interfaces.WatchMaker;
  * но оставляет подклассам решение о том, какой класс инстанцировать.
  * Фабричный метод позволяет классу делегировать инстанцирование
  * подклассам.
- *
+ * <p>
  * Изменяя только одно слово в строке 9
  * (Rome - Digital) мы запускаем тот или иной класс.
  * Если вместо (Rome - Digital) в строке 9 поставить ссылку
@@ -23,12 +23,13 @@ public class Main {
         Watch watch = maker.createWatch();
         watch.showTime();
     }
-     static WatchMaker getMakerByName(String maker){
+
+    private static WatchMaker getMakerByName(String maker) {
         if (maker.equals("Digital"))
             return new DigitalWatchMaker();
         else if (maker.equals("Rome"))
             return new RomeWatchMaker();
 
-        throw new RuntimeException("Not supported watch production line: " +maker);
+        throw new RuntimeException("Not supported watch production line: " + maker);
     }
 }

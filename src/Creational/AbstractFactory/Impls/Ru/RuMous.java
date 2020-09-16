@@ -15,13 +15,12 @@ public class RuMous implements Mous {
 
     @Override
     public void scroll(int direction) {
-        if(direction>0) {
+        if (direction > 0) {
             System.out.println("Скрол вверх");
-        } else
-            if (direction<0){
-                System.out.println("Скрол вниз");
-            } else {
-                System.out.println("нет прокрутки");
-            }
+        } else if (direction < 0) {
+            System.out.println("Скрол вниз");
+        } else {
+            System.out.println("нет прокрутки");
+        }
     }
 }

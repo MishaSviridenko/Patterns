@@ -5,13 +5,13 @@ public class Car {
     Transmission transmission;
     int maxSpeed;
 
-    public void setMake(String make) {
+    void setMake(String make) {
         this.make = make;
     }
-    public void setTransmission(Transmission transmission) {
+    void setTransmission(Transmission transmission) {
         this.transmission = transmission;
     }
-    public void setMaxSpeed(int maxSpeed) {
+    void setMaxSpeed(int maxSpeed) {
         this.maxSpeed = maxSpeed;
     }
 

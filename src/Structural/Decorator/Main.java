@@ -9,7 +9,7 @@ import Structural.Decorator.Impls.Printer;
  * Динамически добавляет объекту новые обязанности. Является
  * гибкой альтернативой порождению подклассов с целью расширения
  * функциональности.
- *
+ * <p>
  * Decorator / Wrapper - Классы выполняют логику объединяющего их
  * абстрактного класса или интерфейса при этом вносят свои дополнения
  * (изменения). Декоратор - паттерн, структурирующий объекты.
@@ -23,8 +23,8 @@ public class Main {
     public static void main(String[] args) {
         PrintInterface pr = new QuoteDecorator(
                 new RightBracketDecorator(
-                new LeftBracketDecorator(
-                new Printer("Hi"))));
+                        new LeftBracketDecorator(
+                                new Printer("Hi"))));
         pr.print();
     }
 }

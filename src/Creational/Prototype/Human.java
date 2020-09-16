@@ -4,7 +4,7 @@ public class Human implements Copyable {
     int age;
     String name;
 
-    public Human(int age, String name) {
+    Human(int age, String name) {
         this.age = age;
         this.name = name;
     }

@@ -1,14 +1,12 @@
 package Creational.Builder.BuilderHard.Impl;
 
-import Creational.Builder.BuilderHard.Bean.Car;
 import Creational.Builder.BuilderHard.CarBuilder;
 import Creational.Builder.BuilderHard.Enum.Transmission;
 
 public class SubaruBuilder extends CarBuilder {
-    private Car car;
 
     @Override
-    public void buiderMake() {
+    public void builderMake() {
         car.setMake("Subaru");
     }
 

@@ -15,12 +15,11 @@ public class EnMous implements Mous {
 
     @Override
     public void scroll(int direction) {
-        if(direction>0) {
+        if (direction > 0) {
             System.out.println("Scroll up");
-        } else
-        if (direction<0){
+        } else if (direction < 0) {
             System.out.println("Scroll down");
-        }else {
+        } else {
             System.out.println("No scrolling");
         }
     }

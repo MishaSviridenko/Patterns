@@ -9,7 +9,7 @@ import Structural.Composite.Interfaces.Shape;
  * Компонует объекты в древовидные структуры для представления
  * иерархий часть-целое. Позволяет клиентам единообразно трактовать
  * индивидуальные и составные объекты.
- *
+ * <p>
  * Реализуя механизмы вложенности создает составные объекты.
  */
 public class Main {
@@ -41,5 +41,4 @@ public class Main {
         composite.addComponent(composite2);
         composite.draw();
     }
-
 }

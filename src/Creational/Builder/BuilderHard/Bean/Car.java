@@ -10,9 +10,11 @@ public class Car {
     public void setMake(String make) {
         this.make = make;
     }
+
     public void setTransmission(Transmission transmission) {
         this.transmission = transmission;
     }
+
     public void setMaxSpeed(int maxSpeed) {
         this.maxSpeed = maxSpeed;
     }

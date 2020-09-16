@@ -8,7 +8,7 @@ import java.util.List;
 public class Composite implements Shape {
     private List<Shape> components = new ArrayList<>();
 
-    public void addComponent(Shape component) {
+    void addComponent(Shape component) {
         components.add(component);
     }
 

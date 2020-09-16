@@ -2,7 +2,7 @@ package Creational.Prototype;
 
 /**
  * Должен уметь генерировать самого себя.
- *
+ * <p>
  * В JDC предусмотрен интерфейс Clonable имеющий метод clone().
  * Имплементация этого интерфейса и переопределение метода clone()
  * реализует шаблон Prototype. В методе clone() будет просто
@@ -13,7 +13,7 @@ public class Main {
         Human original = new Human(18, "Vasya");
         System.out.println(original);
 
-        Human copy = (Human)original.copy();
+        Human copy = (Human) original.copy();
         System.out.println(copy);
     }
 }

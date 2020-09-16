@@ -1,17 +1,17 @@
 package Structural.Facade;
 
-public class DVDRom {
+class DVDRom {
     private boolean data = false;
 
-    public boolean hasData(){
+    boolean hasData() {
         return data;
     }
 
-    void load(){
+    void load() {
         data = true;
     }
 
-    void unload(){
+    void unload() {
         data = false;
     }
 }
